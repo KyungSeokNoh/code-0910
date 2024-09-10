@@ -43,6 +43,14 @@ $(function(){
                     slidesToShow: 1,  // 화면이 600px 이하일 때 1개 슬라이드 표시
                     slidesToScroll: 1
                 }
+            },
+            {
+                breakpoint: 430,  // 화면 너비가 600px 이하일 때 설정
+                settings: {
+                    slidesToShow: 1,  // 화면이 600px 이하일 때 1개 슬라이드 표시
+                    slidesToScroll: 1,
+                    arrows:false
+                }
             }
         ]
     })

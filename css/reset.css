@@ -72,7 +72,14 @@ body{
 
     .title{
         font-size: 6em;
+    }
 
+    .sui_wrap>div{
+        font-size: 12px;
+    }
+
+    .sui_wrap span{
+        font-size: 6em;
     }
     #footer{
         height: auto;

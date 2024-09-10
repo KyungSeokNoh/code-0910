@@ -254,10 +254,9 @@
     .art_wrap ul li span{
         font-size: 14px;
     }
-
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:500px){
     #footer{
         height: auto;
     }
@@ -270,6 +269,31 @@
         justify-content: space-between;
         border-top: 1px dotted gray;
         height: 100px;
+    }
+}
+
+@media screen and (max-width:430px){
+
+    .right span{
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .partner{
+        height: 350px;
+    }
+    .air{
+        height: 50%;
+        transform: translateY(50%);
+    }
+
+
+    .text span{
+        font-size: 4em;
+    }
+
+    .suitable{
+        margin: 0;
     }
 }
 
